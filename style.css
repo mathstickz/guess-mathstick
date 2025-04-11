@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  background-color: lightblue;
+  border-radius: 3rem;
+  border-bottom: 2rem;
+  object-fit: contain;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(232, 236, 238);
+}
+
+.cont1 {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  height: 25rem;
+  gap: 2rem;
+  border-radius: 13px;
+  padding: 3rem;
+  background-image: url(./bf9a415f-b758-4c0d-a820-334370772ec3.jpg);
+}
+.cont {
+  display: grid;
+  flex-direction: row;
+  /* margin-right: 20rem; */
+  margin-top: 5rem;
+}
+
+.container {
+  background-color: aliceblue;
+  width: 30rem;
+  height: 13rem;
+  gap: 1rem;
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  border-radius: 0.3rem;
+  margin-left: 15rem;
+  bottom: 20rem;
+}
+
+.but2 {
+  width: 7rem;
+  height: 3rem;
+  border-radius: 10px;
+  border: transparent;
+  background-color: lightskyblue;
+}
+.but2:hover {
+  background-color: rgb(151, 195, 210);
+}
+#guess {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 10px;
+  margin-left: 3rem;
+  border: transparent;
+}
+#guess:hover {
+  place-content: ;
+}
+.but1 {
+  width: 7rem;
+  height: 1.8rem;
+  border-radius: 10px;
+  margin-left: 15rem;
+  border: transparent;
+  background-color: rgb(193, 227, 239);
+}
+.but1:hover {
+  background-color: lightblue;
+}
+h1 {
+  font-size: 1.75rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.para {
+  font-size: 11px;
+  color: rgb(99, 95, 95);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ins {
+  border-radius: 2rem;
+  height: 2.8rem;
+  width: 20rem;
+  margin-top: 9rem;
+  align-items: center;
+  justify-content: center;
+  border: rgb(23, 23, 23);
+  background-color: lightblue;
+}

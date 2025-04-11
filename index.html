@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="cont">
+      <div class="cont1">
+        <i id="img" class="fa-regular fa-wave-square"></i>
+
+        <span>
+          
+        </span>
+        <h1><span style="font-size: 2rem; font-family: 'Times New Roman', Times, serif;">Guess</span> a Thon <BR>(ONLY 6 TRIALS)</BR> </h1>
+        <p class="para" >The "Guess the Number" game is a simple number guessing game built  using HTML, <br> CSS, and JavaScript. The player is required to guess a random number between 0 <br> and 100. The game allows six attempts (max tries) to guess the correct number.</p>
+        <button class="but2" onclick="gameStart()">Start Game</button>
+      
+        <div id="container" class="container">
+
+          <h2>
+            Guess From <br> 1(ONE) <BR>100(HUND'S)</BR>
+          </h2>
+          <input type="number" id="guess" placeholder="Enter your guess" />
+          <button class="but1" onclick="takeUserGuess()">Guess</button>
+  
+        </div>
+      
+      </div>
+    </div>
+   
+    <input
+    class="ins"
+    type="text"
+    id="message"
+    placeholder="COMMENT"
+    readonly
+  />
+  </body>
+  <script src="script.js"></script>
+</html>
